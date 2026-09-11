@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    display: grid; 
+    height: 300px;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+.box {
+    background-color: red;
+}
+@media (min-width: 768px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 1024px){
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
