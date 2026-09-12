@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+        <aside class="sidebar">
+            <div class="logo">Apex Analytics</div>
+            <ul class="nav-link">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Subscriptions</a></li>
+                <li><a href="#">Customer Cohort</a></li>
+                <li><a href="#">Invoices</a></li>
+                <li><a href="#">Forecasting</a></li>
+            </ul>
+        </aside>
+        <div class="main">
+            <header class="topbar">
+                <h1>Overview</h1>
+            </header>
+            <div class="content">
+                <div class="stats">
+                    <div class="card">
+                        <p class="label">Monthly Recurring Revenue</p>
+                        <h2 class="value">$128,450</h2>
+                        <p class="detail">+12% compared to last month</p>
+                    </div>
+                    <div class="card">
+                        <p class="label">Active Subscriptions</p>
+                        <h2 class="value">2,420</h2>
+                        <p class="detail">48 new signups this week</p>
+                    </div>
+                    <div class="card">
+                        <p class="label">Average Revenue Per User</p>
+                        <h2 class="value">$58.03</h2>
+                        <p class="detail">Calculated all across paid tiers</p>
+                    </div>
+                    <div class="card">
+                        <p class="label">Churn Rate</p>
+                        <h2 class="value">1.8%</h2>
+                        <p class="detail">-0.3% improvement from last quarter</p>
+                    </div>
+                </div>
+                <div class="transactions">
+                    <h3>Latest Transactions</h3>
+                    <ul class="transactions-list">
+                        <li>
+                            <span class="name">Jamela McCullough</span>
+                            <span class="amount">+$101.23</span>
+                        </li>
+                        <li>
+                            <span class="name">Andrew Mackintyre</span>
+                            <span class="amount">+$726.00</span>
+                        </li>
+                        <li>
+                            <span class="name">Bernard Fournier</span>
+                            <span class="amount">+$94.23</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
